@@ -1,7 +1,7 @@
 const { randomUUID } = require('crypto')
 const { Buffer } = require('buffer')
 
-const uWS = require('/home/ilua/Templates/uws/uWebSockets.js-20.5.0')
+const uWS = require('./uWebSockets.js-20.5.0')
 const port = process.env.port | 8800;
 const unregistredConnections = [];
 const clientsList = []
